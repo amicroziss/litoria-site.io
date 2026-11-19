@@ -296,7 +296,7 @@ document.getElementById("quizReset").addEventListener("click", renderQuiz);
 
 /* ---------- CHAT WITH HEROES ---------- */
 const PASS_SCORE = 6;          // сколько верных ответов в тесте открывает чат (из 9)
-const CHAT_API = "";           // необязательно: адрес вашего сервера с ИИ, см. функцию askServer
+const CHAT_API = "https://frosty-moon-4da6.imquwee123.workers.dev/";           // необязательно: адрес вашего сервера с ИИ, см. функцию askServer
 const chatChars = [
  {id:"pech",img:"img/avatars/pechorin.svg",n:"Печорин",r:"Герой нашего времени",ini:"П",
   hi:["А, новый собеседник. Что ж, садитесь: скука — плохой попутчик, а вы, возможно, лучший.","Здравствуйте. Предупреждаю: я не самый приятный человек для беседы. Но, кажется, и не самый скучный."],
